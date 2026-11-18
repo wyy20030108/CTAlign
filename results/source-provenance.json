@@ -1,0 +1,350 @@
+{
+  "experiments/atelectasis_b0.py": {
+    "source": "图文与Adaptive-UOT联合增益_复现.zip!code/atelectasis_b0.py",
+    "sha256": "bd4a289971e88918d85773f606e061376a0d46e15246c00a8ff2025cebdebebe"
+  },
+  "experiments/atelectasis_locate_refine.py": {
+    "source": "图文与Adaptive-UOT联合增益_复现.zip!code/atelectasis_locate_refine.py",
+    "sha256": "b4ecc8b9a7238a8f4272305e524c0c8735475cbed1dac278d249d81db439099a"
+  },
+  "experiments/atelectasis_locate_release.py": {
+    "source": "局灶肺不张监督定位与精分割_复现.zip!code/atelectasis_locate_release.py",
+    "sha256": "12d48f6bab331259b5c6904534a9ea697d0ee5e3d632522e5135a3209c94da73"
+  },
+  "experiments/atelectasis_prepare.py": {
+    "source": "图文与Adaptive-UOT联合增益_复现.zip!code/atelectasis_prepare.py",
+    "sha256": "8385b029a85bc23bf537767305ab86108ffaf41dd1f7a809758832fc3eb652da"
+  },
+  "experiments/atelectasis_screen.py": {
+    "source": "图文与Adaptive-UOT联合增益_复现.zip!code/atelectasis_screen.py",
+    "sha256": "2f639120e41dd83192ea7b36363d37ec7d79a2e798ad8b38bffbc663e20a664d"
+  },
+  "experiments/atelectasis_sliding.py": {
+    "source": "图文与Adaptive-UOT联合增益_复现.zip!code/atelectasis_sliding.py",
+    "sha256": "8b40c4d512d3271f9c14ee4fc4e7da5bd5603d83a40af0819fa8b1ab16635f8d"
+  },
+  "experiments/atelectasis_sliding_release.py": {
+    "source": "局灶肺不张高分辨率滑窗_复现.zip!code/atelectasis_sliding_release.py",
+    "sha256": "fd6a0eb6ee20e9c5115f85b688ef1618880222b8d485e18fd98fb6502d7602b1"
+  },
+  "experiments/atelectasis_sliding_traincheck.py": {
+    "source": "局灶肺不张高分辨率滑窗_复现.zip!code/atelectasis_sliding_traincheck.py",
+    "sha256": "7280a3d4c9dd6d65daac2d8eff6b75d3b19bd775dca20edcaf260414d82473f6"
+  },
+  "experiments/audit_pairs.py": {
+    "source": "图文与Adaptive-UOT联合增益_复现.zip!code/audit_pairs.py",
+    "sha256": "dc52bfb998f956dc942b334a4dbbe3af109cd03d36943e37c130c7ce79916ed9"
+  },
+  "experiments/bounded_residual.py": {
+    "source": "local experiment source/bounded_residual.py",
+    "sha256": "cc6a61629af7c8dbcf4def2c519bdf5bd0174df276ac65c77a9d5140a897b460"
+  },
+  "experiments/diag_common.py": {
+    "source": "local experiment source/diag_common.py",
+    "sha256": "14c6ccb2aed8f8c5d1d32507cdc4293ed086c0f556281de1b9172e7a638b3d49"
+  },
+  "experiments/diag_localize.py": {
+    "source": "图文与Adaptive-UOT联合增益_复现.zip!code/diag_localize.py",
+    "sha256": "7e1b080953f849e9cb2d03c9a56b3d4a1f91083e76c8c305bd8de7361252305d"
+  },
+  "experiments/diagnose_whole_T.py": {
+    "source": "图文与Adaptive-UOT联合增益_复现.zip!code/diagnose_whole_T.py",
+    "sha256": "b02e5b1f5d61b7ef6cab7067c8ab67ca0446096a596f554f527403a405de787b"
+  },
+  "experiments/fetch_four.py": {
+    "source": "图文与Adaptive-UOT联合增益_复现.zip!code/fetch_four.py",
+    "sha256": "55195558e634d497eed307ffbde48de7ca05911b0f4a252244c129ecd267a952"
+  },
+  "experiments/fetch_manifest.py": {
+    "source": "图文与Adaptive-UOT联合增益_复现.zip!code/fetch_manifest.py",
+    "sha256": "7b483a6b0f9270b13d8ddf494fcb7b55567f8dd54561b8046d48772f16c9a2b0"
+  },
+  "experiments/finding_eval.py": {
+    "source": "图文与Adaptive-UOT联合增益_复现.zip!code/finding_eval.py",
+    "sha256": "2d76c5dd0d20c86fd5da863ff8f72af4573d0adb1ce87ee9ee5e4009bd317b79"
+  },
+  "experiments/finding_native.py": {
+    "source": "图文与Adaptive-UOT联合增益_复现.zip!code/finding_native.py",
+    "sha256": "8722620d377c50da7d5e01a16dcc72ecd1cab045e6f2bfb7c557d41f22dec472"
+  },
+  "experiments/finding_train.py": {
+    "source": "图文与Adaptive-UOT联合增益_复现.zip!code/finding_train.py",
+    "sha256": "48095fa096ec3730aaa7556ef06ed9701cc960dd98ef9b91d8932b39d5262c62"
+  },
+  "experiments/frozen_priors.py": {
+    "source": "图文与Adaptive-UOT联合增益_复现.zip!code/frozen_priors.py",
+    "sha256": "cd29a1abb262d6ad3073d71411ca6458225adad77922eebf23be4aa11069704a"
+  },
+  "experiments/full_report_model.py": {
+    "source": "local experiment source/full_report/full_report_model.py",
+    "sha256": "37b061e8daa43a01d8e0975d1ea155a63a9b5accc43f5f56a070bfc67dc1289a"
+  },
+  "experiments/geometry.py": {
+    "source": "local experiment source/geometry.py",
+    "sha256": "4af35766ed911d36ed9b639e39303e33cb9f8bc917b758a939c12c82b91aa3a8"
+  },
+  "experiments/joint_boundary_prototypes.py": {
+    "source": "图文与Adaptive-UOT联合增益_复现.zip!code/joint_boundary_prototypes.py",
+    "sha256": "f638c3d2074e64d3ce9aabdf790be3c110bcf0c128157963f4471b9718e00da8"
+  },
+  "experiments/joint_bundle.py": {
+    "source": "图文与Adaptive-UOT联合增益_复现.zip!code/joint_bundle.py",
+    "sha256": "9f8a2b5ffab0c9111bf83a03a2b0baa5bb3c6b9004af156bb5b8255573472e96"
+  },
+  "experiments/joint_confirm.py": {
+    "source": "图文与Adaptive-UOT联合增益_复现.zip!code/joint_confirm.py",
+    "sha256": "d31ac73d345055454487ac42b78e8aca1276c7ab2f67f93e584d33be78a09074"
+  },
+  "experiments/joint_consensus.py": {
+    "source": "图文与Adaptive-UOT联合增益_复现.zip!code/joint_consensus.py",
+    "sha256": "07dcd8cdd53cbb9986a1f847d5e7ecaaa778e6486e6e4cabaa7bbbff6443cd27"
+  },
+  "experiments/joint_external_nodule.py": {
+    "source": "图文与Adaptive-UOT联合增益_复现.zip!code/joint_external_nodule.py",
+    "sha256": "851d4fd0995316adb44eec09a5e7d44847ee2968de7c0b4622ecd488f8c62a17"
+  },
+  "experiments/joint_external_proto_only.py": {
+    "source": "图文与Adaptive-UOT联合增益_复现.zip!code/joint_external_proto_only.py",
+    "sha256": "2b5e7e948e54a1a32eba2ed1d4488c6252781c5d388d88c0900cf42ab15b4d58"
+  },
+  "experiments/joint_external_refine.py": {
+    "source": "图文与Adaptive-UOT联合增益_复现.zip!code/joint_external_refine.py",
+    "sha256": "f09ffe35fbb20920b9c9aeb88b37df68bad5039e39b008a63475b6e3fbe80232"
+  },
+  "experiments/joint_external_residual.py": {
+    "source": "图文与Adaptive-UOT联合增益_复现.zip!code/joint_external_residual.py",
+    "sha256": "ba00f5629827635f22ff13a3a7093e61949b0c8a4fb3e14e725657b310e5ae6e"
+  },
+  "experiments/joint_external_target_audit.py": {
+    "source": "图文与Adaptive-UOT联合增益_复现.zip!code/joint_external_target_audit.py",
+    "sha256": "e214a5a1e3ec581808dc4244fc6874ed7052b995a0435dc04d1ffc2099da8ac2"
+  },
+  "experiments/joint_factorial.py": {
+    "source": "图文与Adaptive-UOT联合增益_复现.zip!code/joint_factorial.py",
+    "sha256": "9248a17d7f6e76e3515bd3890be8e9576e50900c8417d89df7a0a141764e3c88"
+  },
+  "experiments/joint_metrics.py": {
+    "source": "图文与Adaptive-UOT联合增益_复现.zip!code/joint_metrics.py",
+    "sha256": "2412f3150d70c5ceacbb3cd419d6dc88380a567962fa0ab3b7ff685f21738bc4"
+  },
+  "experiments/joint_nodule_cohort.py": {
+    "source": "图文与Adaptive-UOT联合增益_复现.zip!code/joint_nodule_cohort.py",
+    "sha256": "79ec672a59875fcb27edaa3443114297481db80b4910f505780b52041214758f"
+  },
+  "experiments/joint_nodule_gate.py": {
+    "source": "图文与Adaptive-UOT联合增益_复现.zip!code/joint_nodule_gate.py",
+    "sha256": "da06bdfcc0efc6ae769171b4748dd91f01c7759b0f59f5c032995cd79ab2ac66"
+  },
+  "experiments/joint_nodule_growth.py": {
+    "source": "图文与Adaptive-UOT联合增益_复现.zip!code/joint_nodule_growth.py",
+    "sha256": "bf6c8999d7e92b7fca6c90996a5d87a7864675921878c3182227778b79960b4b"
+  },
+  "experiments/joint_nodule_growth_refine.py": {
+    "source": "图文与Adaptive-UOT联合增益_复现.zip!code/joint_nodule_growth_refine.py",
+    "sha256": "1c02a2b504bf3419dc0b0651a26926178963582244e1f96e79ab13f70618fff1"
+  },
+  "experiments/joint_nodule_morphology.py": {
+    "source": "图文与Adaptive-UOT联合增益_复现.zip!code/joint_nodule_morphology.py",
+    "sha256": "446bdacd461b9cbe129480f3633a8931c5289e76513f17014e5db58ea015d36d"
+  },
+  "experiments/joint_nodule_no_size.py": {
+    "source": "图文与Adaptive-UOT联合增益_复现.zip!code/joint_nodule_no_size.py",
+    "sha256": "398b5d8a467cb9fe9e8eec18aa4661331e009ef988f04f4c06ee04f2b9f013b3"
+  },
+  "experiments/joint_nodule_pipeline.py": {
+    "source": "图文与Adaptive-UOT联合增益_复现.zip!code/joint_nodule_pipeline.py",
+    "sha256": "b05a1666141d6c4092a36d860c56492f3e804687d3375a30eae286bbdacc6127"
+  },
+  "experiments/joint_nodule_run.py": {
+    "source": "图文与Adaptive-UOT联合增益_复现.zip!code/joint_nodule_run.py",
+    "sha256": "08881f344e60b88441f94ad23fcbaebb5d0862cc76a624dbed9c7afcbe23c0ef"
+  },
+  "experiments/joint_nodule_selection.py": {
+    "source": "图文与Adaptive-UOT联合增益_复现.zip!code/joint_nodule_selection.py",
+    "sha256": "9f734db24594300f0d070ddc0ed4f81701fff68811f4c1d4d699e76aba4fbef2"
+  },
+  "experiments/joint_nodule_size.py": {
+    "source": "图文与Adaptive-UOT联合增益_复现.zip!code/joint_nodule_size.py",
+    "sha256": "2a850774841e86f884f622908d16a414657ee6e0b877d0fced9dde74dc1ac247"
+  },
+  "experiments/joint_proto_raw_audit.py": {
+    "source": "图文与Adaptive-UOT联合增益_复现.zip!code/joint_proto_raw_audit.py",
+    "sha256": "ab82a00ea402da859e30bd283f7d6c7b4e71948e16a948750a6eb26cd2aad6d1"
+  },
+  "experiments/joint_replication_cohort.py": {
+    "source": "图文与Adaptive-UOT联合增益_复现.zip!code/joint_replication_cohort.py",
+    "sha256": "79223011c3c36ad8d7415ff4abde7844775ecd1d8e215b844047a35aa741cdcf"
+  },
+  "experiments/joint_replication_eval.py": {
+    "source": "图文与Adaptive-UOT联合增益_复现.zip!code/joint_replication_eval.py",
+    "sha256": "b3c066e069637ac0708568e77e4ea1439603a045c4ca375f0cdd1c96aa766f40"
+  },
+  "experiments/joint_reserve.py": {
+    "source": "图文与Adaptive-UOT联合增益_复现.zip!code/joint_reserve.py",
+    "sha256": "38f8b20afe8f850a1b2908db57df9a8a24d96061900fd64f3542efae56d92b44"
+  },
+  "experiments/joint_roi.py": {
+    "source": "图文与Adaptive-UOT联合增益_复现.zip!code/joint_roi.py",
+    "sha256": "b76f6a713886f05292df3da3adebde40f0bed3a9ed8f1a14938e2aa6ca7a3a2a"
+  },
+  "experiments/joint_spatial.py": {
+    "source": "图文与Adaptive-UOT联合增益_复现.zip!code/joint_spatial.py",
+    "sha256": "dfc216e63a416d10f85787ff3ea3e1330ab62cf1e0ed5fa9821638e7c66dc11c"
+  },
+  "experiments/joint_target_audit.py": {
+    "source": "图文与Adaptive-UOT联合增益_复现.zip!code/joint_target_audit.py",
+    "sha256": "d8b80844f85163528cef653b1caba51bb0db008cd2778040d3a48e7b999dca14"
+  },
+  "experiments/matched6.py": {
+    "source": "共享候选框跨患者实验_复现.zip!matched6.py",
+    "sha256": "ce39746319a9f0778e59a2c20730ce134ef512ce7ffc20589d5b4a72e6e46679"
+  },
+  "experiments/matched6_collect.py": {
+    "source": "共享候选框跨患者实验_复现.zip!matched6_collect.py",
+    "sha256": "ad9bdb4b2792ba804277e7359480a5ca5fa3db4fae131f78e418bf4bab8d7fd4"
+  },
+  "experiments/matched6_pipeline.py": {
+    "source": "共享候选框跨患者实验_复现.zip!matched6_pipeline.py",
+    "sha256": "bd5e3d327aab312c67bd5fcb64b86fe49f5b7ee46361561d893c25da4bb84f09"
+  },
+  "experiments/matched6_sensitivity.py": {
+    "source": "共享候选框跨患者实验_复现.zip!matched6_sensitivity.py",
+    "sha256": "c07b26695c61357769e529b930aadc7481bc23939b7637368d8f8d1a71410945"
+  },
+  "experiments/prepare_unlabeled.py": {
+    "source": "图文与Adaptive-UOT联合增益_复现.zip!code/prepare_unlabeled.py",
+    "sha256": "52c14d1777508981be70d7d5bad636352328ae4c04f87730010f2e2615def38d"
+  },
+  "experiments/real_pair_smoke.py": {
+    "source": "图文与Adaptive-UOT联合增益_复现.zip!code/real_pair_smoke.py",
+    "sha256": "69f28bd4c9f4cf5a1a7f46d708bdce2c741bcd0cb294f39ae10786745e8a7453"
+  },
+  "experiments/replay_controls.py": {
+    "source": "图文与Adaptive-UOT联合增益_复现.zip!code/replay_controls.py",
+    "sha256": "4010caf01d451258d51651e755679439d18629ada44bc61a227d6ca9142c0225"
+  },
+  "experiments/report_strata.py": {
+    "source": "图文与Adaptive-UOT联合增益_复现.zip!code/report_strata.py",
+    "sha256": "17ac3d19c91b519d3509204fe8d8cb6b68669e29448c06fc1a469109ddb95716"
+  },
+  "experiments/swap_clinical.py": {
+    "source": "同CT文本交换实验_结果与复现.zip!code/swap_clinical.py",
+    "sha256": "ccc642e29d328faeff63a25996bfd51529ff7fcd3a8f76dd9f789d8282a7d925"
+  },
+  "experiments/swap_data.py": {
+    "source": "图文与Adaptive-UOT联合增益_复现.zip!code/swap_data.py",
+    "sha256": "63919959457fb08bec4e54ab770e453a4bb24f1175e626613e15651e639ce368"
+  },
+  "experiments/swap_dataset_bundle.py": {
+    "source": "同CT文本交换实验_结果与复现.zip!code/swap_dataset_bundle.py",
+    "sha256": "70394a6bd961c8e84916c04d4124465ed6398aa51ea242e6e05ca863a9c5025e"
+  },
+  "experiments/swap_eval.py": {
+    "source": "同CT文本交换实验_结果与复现.zip!code/swap_eval.py",
+    "sha256": "e6168a5afe60c32b4f681d484d1a99200083e56cf4c09ec4c100adadb2c273db"
+  },
+  "experiments/swap_fallback.py": {
+    "source": "同CT文本交换实验_结果与复现.zip!code/swap_fallback.py",
+    "sha256": "73d1e3f4d0864e73c60f389298778a1ae37a7af64149fae0a2fb31a6067bf7f6"
+  },
+  "experiments/swap_prior.py": {
+    "source": "同CT文本交换实验_结果与复现.zip!code/swap_prior.py",
+    "sha256": "4e09cc2cd8f28433fcc681067a90625db91112ade6ea02d3618bfcb2a8e6d2b2"
+  },
+  "experiments/swap_results.py": {
+    "source": "同CT文本交换实验_结果与复现.zip!code/swap_results.py",
+    "sha256": "f5a42bc7632c2c5d0d99580bcb3db8e68df406a524da2b5dcf2ff200b62d36aa"
+  },
+  "experiments/swap_volume.py": {
+    "source": "同CT文本交换实验_结果与复现.zip!code/swap_volume.py",
+    "sha256": "773d75dedba8d5edcb09f9ab042d48cc827f6fa0c24acba8d40f99f04d77f72d"
+  },
+  "experiments/thesis_accelerated.py": {
+    "source": "毕业论文图文半监督_独立评价复现.zip!code/thesis_accelerated.py",
+    "sha256": "363ad5dc6fe9638be1b96453f2b7ca04458a484710b9a2ef78720c5611764c01"
+  },
+  "experiments/thesis_cohort.py": {
+    "source": "图文与Adaptive-UOT联合增益_复现.zip!code/thesis_cohort.py",
+    "sha256": "f2cddc5eb894cf0caef719a5827418490ecaef7e7cf9e3bd79693d6580c22af1"
+  },
+  "experiments/thesis_component_fast.py": {
+    "source": "图文与Adaptive-UOT联合增益_复现.zip!code/thesis_component_fast.py",
+    "sha256": "0bbd3564b7745c7f6660341d48a998be6dc04cae95ae472f2871f4c87cc86739"
+  },
+  "experiments/thesis_dual.py": {
+    "source": "图文与Adaptive-UOT联合增益_复现.zip!code/thesis_dual.py",
+    "sha256": "eec9fd329b5d0911b9f364d131db45d748b03be0f77738a6f7dec87cd7d64ba9"
+  },
+  "experiments/thesis_dual_eval.py": {
+    "source": "图文与Adaptive-UOT联合增益_复现.zip!code/thesis_dual_eval.py",
+    "sha256": "d6ae266b71e0181834e9795b907b26a9c0dc141c60fd8c253bc95b664603bccd"
+  },
+  "experiments/thesis_evaluate.py": {
+    "source": "图文与Adaptive-UOT联合增益_复现.zip!code/thesis_evaluate.py",
+    "sha256": "f6cb690f1347ddddffeb896112ea6f913d13d3904eb3f4e7eb7c8c381469c858"
+  },
+  "experiments/thesis_expand_fetch.py": {
+    "source": "毕业论文图文半监督_独立评价复现.zip!code/thesis_expand_fetch.py",
+    "sha256": "24e6997271b1d8256f77f66a0656de523535232743133cb6ec566b045e57807d"
+  },
+  "experiments/thesis_expand_screen.py": {
+    "source": "图文与Adaptive-UOT联合增益_复现.zip!code/thesis_expand_screen.py",
+    "sha256": "ae0f8b51bc0c67c5305964c12f6e5284c246671e2370656b5600f311e51acaa5"
+  },
+  "experiments/thesis_lobe_model.py": {
+    "source": "图文与Adaptive-UOT联合增益_复现.zip!code/thesis_lobe_model.py",
+    "sha256": "3d3a163d3510c19486ac3254caf4593a18ac8ff7de3efc09392f2c377477e81b"
+  },
+  "experiments/thesis_lobes.py": {
+    "source": "图文与Adaptive-UOT联合增益_复现.zip!code/thesis_lobes.py",
+    "sha256": "5c127a7e890bcde7f71f02550824ad55898c4b9211a4cf2593ce9aadbdab1096"
+  },
+  "experiments/thesis_model.py": {
+    "source": "图文与Adaptive-UOT联合增益_复现.zip!code/thesis_model.py",
+    "sha256": "af40c1a21ba366ebd92f95df0a949997ed76e9a3bd5d386970bced5f88e3a8b3"
+  },
+  "experiments/thesis_pipeline.py": {
+    "source": "毕业论文图文半监督_独立评价复现.zip!code/thesis_pipeline.py",
+    "sha256": "ef312f0e211c2846edbed05e86d193c7cdadac22622330d6263254365b080893"
+  },
+  "experiments/thesis_release.py": {
+    "source": "图文与Adaptive-UOT联合增益_复现.zip!code/thesis_release.py",
+    "sha256": "5171e16dc35c23350ee64d6de8b531ae7c760df268cbf40e0107f551b8a7464b"
+  },
+  "experiments/thesis_report_only.py": {
+    "source": "图文与Adaptive-UOT联合增益_复现.zip!code/thesis_report_only.py",
+    "sha256": "e134f04c9912981038ea746e807a46318b823be5968b157b312086ea14a4978e"
+  },
+  "experiments/thesis_soft_eval.py": {
+    "source": "图文与Adaptive-UOT联合增益_复现.zip!code/thesis_soft_eval.py",
+    "sha256": "90049b79426b44d42eff4255b4cf83994b401dff7c58824287d1c04da1c2e2ce"
+  },
+  "experiments/thesis_soft_transport.py": {
+    "source": "图文与Adaptive-UOT联合增益_复现.zip!code/thesis_soft_transport.py",
+    "sha256": "033722882b1dbbbcb9abce456bc888ca3ef3d4fe5d172b3ee5983f9950ac9f2e"
+  },
+  "experiments/thesis_ssl.py": {
+    "source": "图文与Adaptive-UOT联合增益_复现.zip!code/thesis_ssl.py",
+    "sha256": "011b62b9640910dbafbad8521bf0647ac16eb4d3e4be7204d7568473e0b76503"
+  },
+  "experiments/thesis_teacher_audit.py": {
+    "source": "毕业论文图文半监督_独立评价复现.zip!code/thesis_teacher_audit.py",
+    "sha256": "2bab7a472c351ee2c553084b7c02e98af554c6bf01fed22c43990ba47cbebb01"
+  },
+  "experiments/thesis_test_pipeline.py": {
+    "source": "毕业论文图文半监督_独立评价复现.zip!code/thesis_test_pipeline.py",
+    "sha256": "0e6e9f835cf8fc1ce99987fe4512b741371cbdbefaac2795b09534b934dbcf2d"
+  },
+  "experiments/thesis_transfer.py": {
+    "source": "图文与Adaptive-UOT联合增益_复现.zip!code/thesis_transfer.py",
+    "sha256": "b462573ac685cc1c27c925cc4c0be6164ea8d1e6d6ccf816c6cf8a8bb529ea13"
+  },
+  "experiments/train_partial_baselines.py": {
+    "source": "local experiment source/train_partial_baselines.py",
+    "sha256": "78f2f03b3b9cae8a77122c5dbc5b1a65495549365e3899698073cf277a77dda5"
+  },
+  "experiments/volume_benchmark.py": {
+    "source": "图文与Adaptive-UOT联合增益_复现.zip!code/volume_benchmark.py",
+    "sha256": "492d7cc09a2e3503eb20a9c179e3ec0d8952aef48cee2ff28fc339e430882132"
+  }
+}
