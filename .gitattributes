@@ -2,3 +2,4 @@
 *.md text eol=lf
 *.json text eol=lf
 experiments/*.py -text
+studies/nodule_followup/*.py -text
