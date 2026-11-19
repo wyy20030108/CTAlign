@@ -1,0 +1,672 @@
+{
+  "smoke": {
+    "archive": "胸部CT图文_服务器试跑记录.zip",
+    "archive_sha256": "1374c553c45708ffdc6e919b567c4035f6a5a318b729e8283678df590cb5bacb",
+    "sources": {
+      "audit_pairs.py": {
+        "path": "studies/earlier_ct/sources/smoke/audit_pairs.py",
+        "sha256": "d11dc2cefeb739a57ae5210b18621e2ec36b046c6d8a6179265df33b4f26b347",
+        "archive_sha256": "b552fcfb634a0f329aac7a165a69d61db24ddfe1fca0f1c8005c91e28300878a",
+        "adjustment": "Generic filename example in docstring"
+      },
+      "fetch_manifest.py": {
+        "path": "experiments/fetch_manifest.py",
+        "sha256": "7b483a6b0f9270b13d8ddf494fcb7b55567f8dd54561b8046d48772f16c9a2b0"
+      },
+      "preflight_data.sh": {
+        "path": "studies/earlier_ct/sources/smoke/preflight_data.sh",
+        "sha256": "629a676796121866ddcefda54fea9041107ed0b7873c125683a9ade83d2c971c"
+      },
+      "reference_benchmark.py": {
+        "path": "studies/earlier_ct/sources/smoke/reference_benchmark.py",
+        "sha256": "6f2866cdce01b2b6c7d21c47f2485a815560c9399d5cde33f428e644b5f46b76"
+      },
+      "smoke.py": {
+        "path": "studies/earlier_ct/sources/smoke/smoke.py",
+        "sha256": "0a0bf716b19404aac13c23038dadf0e5ff4fe25edca6423054de3580424538ca"
+      },
+      "volume_benchmark.py": {
+        "path": "experiments/volume_benchmark.py",
+        "sha256": "492d7cc09a2e3503eb20a9c179e3ec0d8952aef48cee2ff28fc339e430882132"
+      }
+    }
+  },
+  "effusion_initial": {
+    "archive": "胸部CT图文实验_首轮结果与轮廓.zip",
+    "archive_sha256": "e3068dfa0d0cd93023812b9ffef99df2b396bd47730f64551dd1c978d66e4287",
+    "sources": {
+      "code/audit_effusion_findings.py": {
+        "path": "studies/earlier_ct/sources/effusion_initial/code/audit_effusion_findings.py",
+        "sha256": "17ddf4079f18b1b8a41b86fbfc811a76ce49710f99ff670ce1f393504f6bc0d7"
+      },
+      "code/audit_pairs.py": {
+        "path": "experiments/audit_pairs.py",
+        "sha256": "dc52bfb998f956dc942b334a4dbbe3af109cd03d36943e37c130c7ce79916ed9"
+      },
+      "code/diagnose_whole_T.py": {
+        "path": "experiments/diagnose_whole_T.py",
+        "sha256": "b02e5b1f5d61b7ef6cab7067c8ab67ca0446096a596f554f527403a405de787b"
+      },
+      "code/donor_support.py": {
+        "path": "studies/earlier_ct/sources/effusion_initial/code/donor_support.py",
+        "sha256": "b16e1b84ca7fc858fccd7f98471771fd39ccfc33c41e806a3b7cd1ab5caadca7"
+      },
+      "code/fetch_four.py": {
+        "path": "experiments/fetch_four.py",
+        "sha256": "55195558e634d497eed307ffbde48de7ca05911b0f4a252244c129ecd267a952"
+      },
+      "code/fetch_manifest.py": {
+        "path": "experiments/fetch_manifest.py",
+        "sha256": "7b483a6b0f9270b13d8ddf494fcb7b55567f8dd54561b8046d48772f16c9a2b0"
+      },
+      "code/matched_two_crop.py": {
+        "path": "studies/earlier_ct/sources/effusion_initial/code/matched_two_crop.py",
+        "sha256": "324e8c4e651c9450d181a566aa587f4454fd174cbe3ddad422917dfd14da9007"
+      },
+      "code/native_finding_qc.py": {
+        "path": "studies/earlier_ct/sources/effusion_initial/code/native_finding_qc.py",
+        "sha256": "ec97e4cec00ca02bd95535d31cce5c2f61601caee18b5d5c9ecdb62747c1170d"
+      },
+      "code/phase1/ai_contours/basel_coverage.py": {
+        "path": "studies/earlier_ct/sources/effusion_initial/code/phase1/ai_contours/basel_coverage.py",
+        "sha256": "8c5f4bc0ae0be784b1d8f9540d2126b72f4913fea7891b5b2df2d3121bc37d79"
+      },
+      "code/phase1/ai_contours/basel_four.py": {
+        "path": "studies/earlier_ct/sources/effusion_initial/code/phase1/ai_contours/basel_four.py",
+        "sha256": "794900fce095da789e399a4ad0528396bc901599436c75f514ffd4f5d2d77f0c"
+      },
+      "code/phase1/ai_contours/basel_six.py": {
+        "path": "studies/earlier_ct/sources/effusion_initial/code/phase1/ai_contours/basel_six.py",
+        "sha256": "95cbe8d66d53e3a63dd82811b5d45d4330e3d3f9d022b603b587145c69f6e66f"
+      },
+      "code/phase1/cohort/phase1_cohort.py": {
+        "path": "studies/earlier_ct/sources/effusion_initial/code/phase1/cohort/phase1_cohort.py",
+        "sha256": "c21895e25908a1df5d74329d283b3fe4df18609ba275619604a90d830134ce04"
+      },
+      "code/phase1/full_report_trainonly/check_full_report.py": {
+        "path": "studies/earlier_ct/sources/effusion_initial/code/phase1/full_report_trainonly/check_full_report.py",
+        "sha256": "c31ddcffa3ad56aa8fbe0051cb3e8011c08235b84ba888ec01f4f53972198754"
+      },
+      "code/phase1/full_report_trainonly/eval_ai_supervision.py": {
+        "path": "studies/earlier_ct/sources/effusion_initial/code/phase1/full_report_trainonly/eval_ai_supervision.py",
+        "sha256": "7336738dd36d362782fea7672ae2f120050657f180da1d9ebc6b5e94998450c4"
+      },
+      "code/phase1/full_report_trainonly/full_report_model.py": {
+        "path": "experiments/full_report_model.py",
+        "sha256": "37b061e8daa43a01d8e0975d1ea155a63a9b5accc43f5f56a070bfc67dc1289a"
+      },
+      "code/phase1/full_report_trainonly/proxy_replay.py": {
+        "path": "studies/earlier_ct/sources/effusion_initial/code/phase1/full_report_trainonly/proxy_replay.py",
+        "sha256": "7a8ec2420ef7cb8075706c42b64e856b6800ce41a24143623ecef71c4ab58dce"
+      },
+      "code/phase1/full_report_trainonly/test_ai_supervision.py": {
+        "path": "studies/earlier_ct/sources/effusion_initial/code/phase1/full_report_trainonly/test_ai_supervision.py",
+        "sha256": "63d415c0cd69265342f0dbae7df0897bace004fd4cd8cb5faa81b09ded97a800"
+      },
+      "code/phase1/full_report_trainonly/train_enriched_sources.py": {
+        "path": "studies/earlier_ct/sources/effusion_initial/code/phase1/full_report_trainonly/train_enriched_sources.py",
+        "sha256": "4935903fa3b086f2737af9b0e3939c8dff7731d7450dae263f3783c09614164a"
+      },
+      "code/phase1/full_report_trainonly/train_source_arms.py": {
+        "path": "studies/earlier_ct/sources/effusion_initial/code/phase1/full_report_trainonly/train_source_arms.py",
+        "sha256": "bcd32cef6a71c36f5dd73643dcdd66ffffad3001f487c84cb14878eb2e5cf326"
+      },
+      "code/phase1/geometry/geometry.py": {
+        "path": "experiments/geometry.py",
+        "sha256": "4af35766ed911d36ed9b639e39303e33cb9f8bc917b758a939c12c82b91aa3a8"
+      },
+      "code/plot_phase1.py": {
+        "path": "studies/earlier_ct/sources/effusion_initial/code/plot_phase1.py",
+        "sha256": "2bbde296af0bc5fb4de211c69678ecf19a5339b4b9496ee4e4de958bd636eef0"
+      },
+      "code/prepare_enriched_u.py": {
+        "path": "studies/earlier_ct/sources/effusion_initial/code/prepare_enriched_u.py",
+        "sha256": "2d72a4679a68bb9b83340710a03ecc990332ab72fa6ce785517ebc37a45e293a"
+      },
+      "code/prepare_partial.py": {
+        "path": "studies/earlier_ct/sources/effusion_initial/code/prepare_partial.py",
+        "sha256": "97b4aa0ad6f83c4dfc36f3c6834b4d73613cd923428c45910e1510f15c039c19"
+      },
+      "code/prepare_r1_proxy.py": {
+        "path": "studies/earlier_ct/sources/effusion_initial/code/prepare_r1_proxy.py",
+        "sha256": "9316b08834a846c85d0c91b93bb46eb0d73b9c69af3807b77d501bf2fe318833"
+      },
+      "code/prepare_unlabeled.py": {
+        "path": "experiments/prepare_unlabeled.py",
+        "sha256": "52c14d1777508981be70d7d5bad636352328ae4c04f87730010f2e2615def38d"
+      },
+      "code/r1_drafts.py": {
+        "path": "studies/earlier_ct/sources/effusion_initial/code/r1_drafts.py",
+        "sha256": "9b6759ff47c1fade754ca28e2eb0c09f6e0c8068b646c47d7679a29d59c1fe3b"
+      },
+      "code/r1_shards.py": {
+        "path": "studies/earlier_ct/sources/effusion_initial/code/r1_shards.py",
+        "sha256": "fceaef3dcfce0a18dda61365f7266d686d67b7b80e01680247cf0a822cd33e88"
+      },
+      "code/real_pair_smoke.py": {
+        "path": "experiments/real_pair_smoke.py",
+        "sha256": "69f28bd4c9f4cf5a1a7f46d708bdce2c741bcd0cb294f39ae10786745e8a7453"
+      },
+      "code/replay_controls.py": {
+        "path": "experiments/replay_controls.py",
+        "sha256": "4010caf01d451258d51651e755679439d18629ada44bc61a227d6ca9142c0225"
+      },
+      "code/report_strata.py": {
+        "path": "experiments/report_strata.py",
+        "sha256": "17ac3d19c91b519d3509204fe8d8cb6b68669e29448c06fc1a469109ddb95716"
+      },
+      "code/reserve_test_frame.py": {
+        "path": "studies/earlier_ct/sources/effusion_initial/code/reserve_test_frame.py",
+        "sha256": "78e090761e5ec5904f45f06fb1cdd300bac6e82066d865a80ebb68fcbabf7714"
+      },
+      "code/sparse_hu_hints.py": {
+        "path": "studies/earlier_ct/sources/effusion_initial/code/sparse_hu_hints.py",
+        "sha256": "a1e308e4d4daa0d418c872170c488dddb2f6158ff3fafc65ca87a04f4e5af7d5"
+      },
+      "code/train_partial_baselines.py": {
+        "path": "experiments/train_partial_baselines.py",
+        "sha256": "78f2f03b3b9cae8a77122c5dbc5b1a65495549365e3899698073cf277a77dda5"
+      },
+      "code/verify_partial_baselines.py": {
+        "path": "studies/earlier_ct/sources/effusion_initial/code/verify_partial_baselines.py",
+        "sha256": "505d2a98d932111ae68f5b39916c629c6132db22e74259de7c919134122c8ef7"
+      },
+      "code/volume_benchmark.py": {
+        "path": "experiments/volume_benchmark.py",
+        "sha256": "492d7cc09a2e3503eb20a9c179e3ec0d8952aef48cee2ff28fc339e430882132"
+      }
+    }
+  },
+  "effusion_residual": {
+    "archive": "胸部CT图文实验_第二轮结果与复现.zip",
+    "archive_sha256": "9989dbef05759e9d1862c9e06f96b132a2e4a9e4eafc59b3ba6101528114357f",
+    "sources": {
+      "code/audit_report_laterality.py": {
+        "path": "studies/earlier_ct/sources/effusion_residual/code/audit_report_laterality.py",
+        "sha256": "36c8343a7c829e7feaabdbef087ef9aa0748ccc4d3b22233d4c23a0457883635"
+      },
+      "code/basel_T7.py": {
+        "path": "studies/earlier_ct/sources/effusion_residual/code/basel_T7.py",
+        "sha256": "af6ee1be777911097590ed284bdcbc72aca492a14d15e53f3795b51819d9b4d2"
+      },
+      "code/bounded_residual.py": {
+        "path": "experiments/bounded_residual.py",
+        "sha256": "cc6a61629af7c8dbcf4def2c519bdf5bd0174df276ac65c77a9d5140a897b460"
+      },
+      "code/collect_bounded.py": {
+        "path": "studies/earlier_ct/sources/effusion_residual/code/collect_bounded.py",
+        "sha256": "2f12986d1904b91ad174752d7fc3ad0e82e1e904d15e22a8ac673512ead73a28"
+      },
+      "code/eval_bounded.py": {
+        "path": "studies/earlier_ct/sources/effusion_residual/code/eval_bounded.py",
+        "sha256": "5555c573ea92b721676708cc84c3e04c276c80892f697fb631cb0a09d4afa543"
+      },
+      "code/frozen_priors.py": {
+        "path": "experiments/frozen_priors.py",
+        "sha256": "cd29a1abb262d6ad3073d71411ca6458225adad77922eebf23be4aa11069704a"
+      },
+      "code/probe_report_source.py": {
+        "path": "studies/earlier_ct/sources/effusion_residual/code/probe_report_source.py",
+        "sha256": "46ffc938deb22838acb0decc381a776dccd24423eb6ba63e5cad73772551c0c5"
+      },
+      "code/run_bounded.sh": {
+        "path": "studies/earlier_ct/sources/effusion_residual/code/run_bounded.sh",
+        "sha256": "7ebccea21704c474977fc9f9a1a3ca41b127b3bb920443bcffbbf17482a54517"
+      },
+      "code/trace_t7.py": {
+        "path": "studies/earlier_ct/sources/effusion_residual/code/trace_t7.py",
+        "sha256": "f429cd11f4815859927a4189e4448cc66500eaac6b0b3ddac6cf4ee94e6ccf49"
+      }
+    }
+  },
+  "text_swap": {
+    "archive": "同CT文本交换实验_结果与复现.zip",
+    "archive_sha256": "5e0d43d469a49310054ed46b3c4097d46b4a16950a585422b7c218d73b2ab1ce",
+    "sources": {
+      "code/swap_clinical.py": {
+        "path": "experiments/swap_clinical.py",
+        "sha256": "ccc642e29d328faeff63a25996bfd51529ff7fcd3a8f76dd9f789d8282a7d925"
+      },
+      "code/swap_data.py": {
+        "path": "experiments/swap_data.py",
+        "sha256": "63919959457fb08bec4e54ab770e453a4bb24f1175e626613e15651e639ce368"
+      },
+      "code/swap_dataset_bundle.py": {
+        "path": "experiments/swap_dataset_bundle.py",
+        "sha256": "70394a6bd961c8e84916c04d4124465ed6398aa51ea242e6e05ca863a9c5025e"
+      },
+      "code/swap_eval.py": {
+        "path": "experiments/swap_eval.py",
+        "sha256": "e6168a5afe60c32b4f681d484d1a99200083e56cf4c09ec4c100adadb2c273db"
+      },
+      "code/swap_fallback.py": {
+        "path": "experiments/swap_fallback.py",
+        "sha256": "73d1e3f4d0864e73c60f389298778a1ae37a7af64149fae0a2fb31a6067bf7f6"
+      },
+      "code/swap_prior.py": {
+        "path": "experiments/swap_prior.py",
+        "sha256": "4e09cc2cd8f28433fcc681067a90625db91112ade6ea02d3618bfcb2a8e6d2b2"
+      },
+      "code/swap_results.py": {
+        "path": "experiments/swap_results.py",
+        "sha256": "f5a42bc7632c2c5d0d99580bcb3db8e68df406a524da2b5dcf2ff200b62d36aa"
+      },
+      "code/swap_volume.py": {
+        "path": "experiments/swap_volume.py",
+        "sha256": "773d75dedba8d5edcb09f9ab042d48cc827f6fa0c24acba8d40f99f04d77f72d"
+      }
+    }
+  },
+  "finding_ssl": {
+    "archive": "指定所见半监督分割_模型与复现.zip",
+    "archive_sha256": "e4ea66d10ebbfc161bbf0b0deee7a75324ce59e94963fa8be8cd359212b1af44",
+    "sources": {
+      "code/audit_pairs.py": {
+        "path": "experiments/audit_pairs.py",
+        "sha256": "dc52bfb998f956dc942b334a4dbbe3af109cd03d36943e37c130c7ce79916ed9"
+      },
+      "code/diagnose_whole_T.py": {
+        "path": "experiments/diagnose_whole_T.py",
+        "sha256": "b02e5b1f5d61b7ef6cab7067c8ab67ca0446096a596f554f527403a405de787b"
+      },
+      "code/fetch_four.py": {
+        "path": "experiments/fetch_four.py",
+        "sha256": "55195558e634d497eed307ffbde48de7ca05911b0f4a252244c129ecd267a952"
+      },
+      "code/fetch_manifest.py": {
+        "path": "experiments/fetch_manifest.py",
+        "sha256": "7b483a6b0f9270b13d8ddf494fcb7b55567f8dd54561b8046d48772f16c9a2b0"
+      },
+      "code/finding_calibration.py": {
+        "path": "studies/earlier_ct/sources/finding_ssl/code/finding_calibration.py",
+        "sha256": "b77e215e3aa5d6865f826362ad1af7b4cee46e2641334b0f9d06e23dd0b54a4a"
+      },
+      "code/finding_eval.py": {
+        "path": "experiments/finding_eval.py",
+        "sha256": "2d76c5dd0d20c86fd5da863ff8f72af4573d0adb1ce87ee9ee5e4009bd317b79"
+      },
+      "code/finding_grid_qc.py": {
+        "path": "studies/earlier_ct/sources/finding_ssl/code/finding_grid_qc.py",
+        "sha256": "7aadad7f096d53453f20631d6c59aa9be6d7b4e26f3870ddcee808ed1ab56d85"
+      },
+      "code/finding_native.py": {
+        "path": "experiments/finding_native.py",
+        "sha256": "8722620d377c50da7d5e01a16dcc72ecd1cab045e6f2bfb7c557d41f22dec472"
+      },
+      "code/finding_native_check.py": {
+        "path": "studies/earlier_ct/sources/finding_ssl/code/finding_native_check.py",
+        "sha256": "b6a14a261a8967ce4ee2c2bd23e83efef932d70ce6e4d4b24a134010c749e7d4"
+      },
+      "code/finding_release.py": {
+        "path": "studies/earlier_ct/sources/finding_ssl/code/finding_release.py",
+        "sha256": "ec5da913a93618e83cf33b8ed7bae41f099aa85b298f5d925dfedaf0cfa13d42"
+      },
+      "code/finding_summary.py": {
+        "path": "studies/earlier_ct/sources/finding_ssl/code/finding_summary.py",
+        "sha256": "ccfff1af105e03522217640305e931c8ea90d1d2e06b6a235dbc836ba569d323"
+      },
+      "code/finding_train.py": {
+        "path": "experiments/finding_train.py",
+        "sha256": "48095fa096ec3730aaa7556ef06ed9701cc960dd98ef9b91d8932b39d5262c62"
+      },
+      "code/finding_unpaired.py": {
+        "path": "studies/earlier_ct/sources/finding_ssl/code/finding_unpaired.py",
+        "sha256": "e89303643bd242695f3ae8dc8bfcdff42765a69491005bde821f5c4d3d166408"
+      },
+      "code/finding_volume_term.py": {
+        "path": "studies/earlier_ct/sources/finding_ssl/code/finding_volume_term.py",
+        "sha256": "cbb74352db23679591eab1f325dd3267160c43de994a646a2f5bcd37cf565be7"
+      },
+      "code/frozen_priors.py": {
+        "path": "experiments/frozen_priors.py",
+        "sha256": "cd29a1abb262d6ad3073d71411ca6458225adad77922eebf23be4aa11069704a"
+      },
+      "code/phase1/geometry/geometry.py": {
+        "path": "experiments/geometry.py",
+        "sha256": "4af35766ed911d36ed9b639e39303e33cb9f8bc917b758a939c12c82b91aa3a8"
+      },
+      "code/prepare_unlabeled.py": {
+        "path": "experiments/prepare_unlabeled.py",
+        "sha256": "52c14d1777508981be70d7d5bad636352328ae4c04f87730010f2e2615def38d"
+      },
+      "code/real_pair_smoke.py": {
+        "path": "experiments/real_pair_smoke.py",
+        "sha256": "69f28bd4c9f4cf5a1a7f46d708bdce2c741bcd0cb294f39ae10786745e8a7453"
+      },
+      "code/replay_controls.py": {
+        "path": "experiments/replay_controls.py",
+        "sha256": "4010caf01d451258d51651e755679439d18629ada44bc61a227d6ca9142c0225"
+      },
+      "code/report_strata.py": {
+        "path": "experiments/report_strata.py",
+        "sha256": "17ac3d19c91b519d3509204fe8d8cb6b68669e29448c06fc1a469109ddb95716"
+      },
+      "code/swap_data.py": {
+        "path": "experiments/swap_data.py",
+        "sha256": "63919959457fb08bec4e54ab770e453a4bb24f1175e626613e15651e639ce368"
+      },
+      "code/volume_benchmark.py": {
+        "path": "experiments/volume_benchmark.py",
+        "sha256": "492d7cc09a2e3503eb20a9c179e3ec0d8952aef48cee2ff28fc339e430882132"
+      }
+    }
+  },
+  "finding_localization": {
+    "archive": "指定所见分割_诊断图与复现.zip",
+    "archive_sha256": "77a9d89f58a2278371e5bcac48a274fb1dc4f53df0dbdfef9b0fe69b4ab91983",
+    "sources": {
+      "code/diag_common.py": {
+        "path": "experiments/diag_common.py",
+        "sha256": "14c6ccb2aed8f8c5d1d32507cdc4293ed086c0f556281de1b9172e7a638b3d49"
+      },
+      "code/diag_common_verify.py": {
+        "path": "studies/earlier_ct/sources/finding_localization/code/diag_common_verify.py",
+        "sha256": "9ef04e52e05d7bca1a3302f19a81383fa6c8462882c6f2fbd7e0a5e933ff97dd"
+      },
+      "code/diag_evidence.py": {
+        "path": "studies/earlier_ct/sources/finding_localization/code/diag_evidence.py",
+        "sha256": "7bcbf68d0840dda24bd7db5993ed4367e54c2b9f383e4b4e3daa8df5842ed086"
+      },
+      "code/diag_localize.py": {
+        "path": "experiments/diag_localize.py",
+        "sha256": "7e1b080953f849e9cb2d03c9a56b3d4a1f91083e76c8c305bd8de7361252305d"
+      },
+      "code/diag_localize_refine.py": {
+        "path": "studies/earlier_ct/sources/finding_localization/code/diag_localize_refine.py",
+        "sha256": "7b9f0156d292b4bc250a0b328af60b9c674523cb88f23523262503bc4f444a5c"
+      },
+      "code/diag_original.py": {
+        "path": "studies/earlier_ct/sources/finding_localization/code/diag_original.py",
+        "sha256": "d512368e8767db11041156a5620f5ac90a1a2046b47eb24700db8ed7b4c53880"
+      },
+      "code/diag_raw.py": {
+        "path": "studies/earlier_ct/sources/finding_localization/code/diag_raw.py",
+        "sha256": "190e7231637b738ddc2559c2c67f0d081c05a19fa79d743fdb94023ba2207329"
+      },
+      "code/diag_raw_fetch.py": {
+        "path": "studies/earlier_ct/sources/finding_localization/code/diag_raw_fetch.py",
+        "sha256": "ed6658961a55cc83b3aec3d846de49028bb569ec293c1238f93ea97293e4a6e6"
+      },
+      "code/diag_raw_review.py": {
+        "path": "studies/earlier_ct/sources/finding_localization/code/diag_raw_review.py",
+        "sha256": "014d8e0e187e57eb162807d466a0fdc6ef75a4c0a981841b32cd1921bb9b4b01"
+      },
+      "code/diag_replay.py": {
+        "path": "studies/earlier_ct/sources/finding_localization/code/diag_replay.py",
+        "sha256": "ee26b11b5f59d6a2ed75b6f80ae438c6a549b9ceb84b426cbccd7432d3b7ee76"
+      }
+    }
+  },
+  "shared_boxes": {
+    "archive": "共享候选框跨患者实验_复现.zip",
+    "archive_sha256": "73bc32b4e6d0c71a53f503ffae4305ff131b233dcee9bda53e23e25d9be56339",
+    "sources": {
+      "matched6.py": {
+        "path": "experiments/matched6.py",
+        "sha256": "ce39746319a9f0778e59a2c20730ce134ef512ce7ffc20589d5b4a72e6e46679"
+      },
+      "matched6_collect.py": {
+        "path": "experiments/matched6_collect.py",
+        "sha256": "ad9bdb4b2792ba804277e7359480a5ca5fa3db4fae131f78e418bf4bab8d7fd4"
+      },
+      "matched6_pipeline.py": {
+        "path": "experiments/matched6_pipeline.py",
+        "sha256": "bd5e3d327aab312c67bd5fcb64b86fe49f5b7ee46361561d893c25da4bb84f09"
+      },
+      "matched6_sensitivity.py": {
+        "path": "experiments/matched6_sensitivity.py",
+        "sha256": "c07b26695c61357769e529b930aadc7481bc23939b7637368d8f8d1a71410945"
+      }
+    }
+  },
+  "atelectasis_full_volume": {
+    "archive": "局灶肺不张全卷基线_复现.zip",
+    "archive_sha256": "930fa85a426936adaa8c2b6876887b6f72a45a6ebce5aa99db1dc14dce14a8ca",
+    "sources": {
+      "code/atelectasis_b0.py": {
+        "path": "experiments/atelectasis_b0.py",
+        "sha256": "bd4a289971e88918d85773f606e061376a0d46e15246c00a8ff2025cebdebebe"
+      },
+      "code/atelectasis_prepare.py": {
+        "path": "experiments/atelectasis_prepare.py",
+        "sha256": "8385b029a85bc23bf537767305ab86108ffaf41dd1f7a809758832fc3eb652da"
+      },
+      "code/atelectasis_release.py": {
+        "path": "studies/earlier_ct/sources/atelectasis_full_volume/code/atelectasis_release.py",
+        "sha256": "9547288e2abd3ffe5f32930cff648fa95d4db5abf76e78296d6e3c8776eb4524"
+      },
+      "code/atelectasis_resumable.py": {
+        "path": "studies/earlier_ct/sources/atelectasis_full_volume/code/atelectasis_resumable.py",
+        "sha256": "a45cc9bebbf203ede0bd99cf4fb35d1538e8068f2915af4439fda4a76b961318"
+      },
+      "code/atelectasis_run.py": {
+        "path": "studies/earlier_ct/sources/atelectasis_full_volume/code/atelectasis_run.py",
+        "sha256": "a642b8c02f8a10f089dbda2bd5a2b669a09af70bda192b9d37e76bb3f7c12e5a"
+      },
+      "code/atelectasis_screen.py": {
+        "path": "experiments/atelectasis_screen.py",
+        "sha256": "2f639120e41dd83192ea7b36363d37ec7d79a2e798ad8b38bffbc663e20a664d"
+      },
+      "code/atelectasis_transfer.py": {
+        "path": "studies/earlier_ct/sources/atelectasis_full_volume/code/atelectasis_transfer.py",
+        "sha256": "18e8d00424f8a7f2f49cf39f68ea2d79822b80354784cd2de1023af728f1a6af"
+      }
+    }
+  },
+  "atelectasis_sliding": {
+    "archive": "局灶肺不张高分辨率滑窗_复现.zip",
+    "archive_sha256": "20d9f42e20f59ebbae098f3f2c72506715d3bfaa1031c983afc1a795642b6a0e",
+    "sources": {
+      "code/atelectasis_b0.py": {
+        "path": "experiments/atelectasis_b0.py",
+        "sha256": "bd4a289971e88918d85773f606e061376a0d46e15246c00a8ff2025cebdebebe"
+      },
+      "code/atelectasis_sliding.py": {
+        "path": "experiments/atelectasis_sliding.py",
+        "sha256": "8b40c4d512d3271f9c14ee4fc4e7da5bd5603d83a40af0819fa8b1ab16635f8d"
+      },
+      "code/atelectasis_sliding_release.py": {
+        "path": "experiments/atelectasis_sliding_release.py",
+        "sha256": "fd6a0eb6ee20e9c5115f85b688ef1618880222b8d485e18fd98fb6502d7602b1"
+      },
+      "code/atelectasis_sliding_traincheck.py": {
+        "path": "experiments/atelectasis_sliding_traincheck.py",
+        "sha256": "7280a3d4c9dd6d65daac2d8eff6b75d3b19bd775dca20edcaf260414d82473f6"
+      }
+    }
+  },
+  "atelectasis_refine": {
+    "archive": "局灶肺不张监督定位与精分割_复现.zip",
+    "archive_sha256": "da383f28deb5270ad4e31c60bd65f5779b09a462d44aad3c4302d3444580ba61",
+    "sources": {
+      "code/atelectasis_locate_refine.py": {
+        "path": "experiments/atelectasis_locate_refine.py",
+        "sha256": "b4ecc8b9a7238a8f4272305e524c0c8735475cbed1dac278d249d81db439099a"
+      },
+      "code/atelectasis_locate_release.py": {
+        "path": "experiments/atelectasis_locate_release.py",
+        "sha256": "12d48f6bab331259b5c6904534a9ea697d0ee5e3d632522e5135a3209c94da73"
+      }
+    }
+  },
+  "atelectasis_bridge": {
+    "archive": "原预算监督滑窗_复现.zip",
+    "archive_sha256": "168df3fced600f439d5d95e306ad94f535902003ddde9f6652f43f734267f6e5",
+    "sources": {
+      "code/thesis_supervised_bridge.py": {
+        "path": "studies/earlier_ct/sources/atelectasis_bridge/code/thesis_supervised_bridge.py",
+        "sha256": "a26eed0166a03247adb5a7f5b0e14f89324895c54bf7ccf6a7d2d5bc2100a7c3"
+      },
+      "run_bridge.py": {
+        "path": "studies/earlier_ct/sources/atelectasis_bridge/run_bridge.py",
+        "sha256": "f5dd10be350d38dc47be0aad33a945c106f8e4d5531885de71e6744e01bd911a"
+      }
+    }
+  },
+  "atelectasis_holdout": {
+    "archive": "毕业论文图文半监督_独立评价复现.zip",
+    "archive_sha256": "354d1d5661b2c8e98a59853d33bad91fa7cc58f92968380b9787b1b1f48c0241",
+    "sources": {
+      "code/atelectasis_b0.py": {
+        "path": "experiments/atelectasis_b0.py",
+        "sha256": "bd4a289971e88918d85773f606e061376a0d46e15246c00a8ff2025cebdebebe"
+      },
+      "code/atelectasis_locate_refine.py": {
+        "path": "experiments/atelectasis_locate_refine.py",
+        "sha256": "b4ecc8b9a7238a8f4272305e524c0c8735475cbed1dac278d249d81db439099a"
+      },
+      "code/atelectasis_prepare.py": {
+        "path": "experiments/atelectasis_prepare.py",
+        "sha256": "8385b029a85bc23bf537767305ab86108ffaf41dd1f7a809758832fc3eb652da"
+      },
+      "code/atelectasis_screen.py": {
+        "path": "experiments/atelectasis_screen.py",
+        "sha256": "2f639120e41dd83192ea7b36363d37ec7d79a2e798ad8b38bffbc663e20a664d"
+      },
+      "code/atelectasis_sliding.py": {
+        "path": "experiments/atelectasis_sliding.py",
+        "sha256": "8b40c4d512d3271f9c14ee4fc4e7da5bd5603d83a40af0819fa8b1ab16635f8d"
+      },
+      "code/audit_pairs.py": {
+        "path": "experiments/audit_pairs.py",
+        "sha256": "dc52bfb998f956dc942b334a4dbbe3af109cd03d36943e37c130c7ce79916ed9"
+      },
+      "code/diag_localize.py": {
+        "path": "experiments/diag_localize.py",
+        "sha256": "7e1b080953f849e9cb2d03c9a56b3d4a1f91083e76c8c305bd8de7361252305d"
+      },
+      "code/diagnose_whole_T.py": {
+        "path": "experiments/diagnose_whole_T.py",
+        "sha256": "b02e5b1f5d61b7ef6cab7067c8ab67ca0446096a596f554f527403a405de787b"
+      },
+      "code/fetch_four.py": {
+        "path": "experiments/fetch_four.py",
+        "sha256": "55195558e634d497eed307ffbde48de7ca05911b0f4a252244c129ecd267a952"
+      },
+      "code/fetch_manifest.py": {
+        "path": "experiments/fetch_manifest.py",
+        "sha256": "7b483a6b0f9270b13d8ddf494fcb7b55567f8dd54561b8046d48772f16c9a2b0"
+      },
+      "code/finding_eval.py": {
+        "path": "experiments/finding_eval.py",
+        "sha256": "2d76c5dd0d20c86fd5da863ff8f72af4573d0adb1ce87ee9ee5e4009bd317b79"
+      },
+      "code/finding_native.py": {
+        "path": "experiments/finding_native.py",
+        "sha256": "8722620d377c50da7d5e01a16dcc72ecd1cab045e6f2bfb7c557d41f22dec472"
+      },
+      "code/finding_train.py": {
+        "path": "experiments/finding_train.py",
+        "sha256": "48095fa096ec3730aaa7556ef06ed9701cc960dd98ef9b91d8932b39d5262c62"
+      },
+      "code/frozen_priors.py": {
+        "path": "experiments/frozen_priors.py",
+        "sha256": "cd29a1abb262d6ad3073d71411ca6458225adad77922eebf23be4aa11069704a"
+      },
+      "code/prepare_unlabeled.py": {
+        "path": "experiments/prepare_unlabeled.py",
+        "sha256": "52c14d1777508981be70d7d5bad636352328ae4c04f87730010f2e2615def38d"
+      },
+      "code/real_pair_smoke.py": {
+        "path": "experiments/real_pair_smoke.py",
+        "sha256": "69f28bd4c9f4cf5a1a7f46d708bdce2c741bcd0cb294f39ae10786745e8a7453"
+      },
+      "code/replay_controls.py": {
+        "path": "experiments/replay_controls.py",
+        "sha256": "4010caf01d451258d51651e755679439d18629ada44bc61a227d6ca9142c0225"
+      },
+      "code/report_strata.py": {
+        "path": "experiments/report_strata.py",
+        "sha256": "17ac3d19c91b519d3509204fe8d8cb6b68669e29448c06fc1a469109ddb95716"
+      },
+      "code/swap_data.py": {
+        "path": "experiments/swap_data.py",
+        "sha256": "63919959457fb08bec4e54ab770e453a4bb24f1175e626613e15651e639ce368"
+      },
+      "code/thesis_accelerated.py": {
+        "path": "experiments/thesis_accelerated.py",
+        "sha256": "363ad5dc6fe9638be1b96453f2b7ca04458a484710b9a2ef78720c5611764c01"
+      },
+      "code/thesis_cohort.py": {
+        "path": "experiments/thesis_cohort.py",
+        "sha256": "f2cddc5eb894cf0caef719a5827418490ecaef7e7cf9e3bd79693d6580c22af1"
+      },
+      "code/thesis_component_fast.py": {
+        "path": "experiments/thesis_component_fast.py",
+        "sha256": "0bbd3564b7745c7f6660341d48a998be6dc04cae95ae472f2871f4c87cc86739"
+      },
+      "code/thesis_dual.py": {
+        "path": "experiments/thesis_dual.py",
+        "sha256": "eec9fd329b5d0911b9f364d131db45d748b03be0f77738a6f7dec87cd7d64ba9"
+      },
+      "code/thesis_dual_eval.py": {
+        "path": "experiments/thesis_dual_eval.py",
+        "sha256": "d6ae266b71e0181834e9795b907b26a9c0dc141c60fd8c253bc95b664603bccd"
+      },
+      "code/thesis_evaluate.py": {
+        "path": "experiments/thesis_evaluate.py",
+        "sha256": "f6cb690f1347ddddffeb896112ea6f913d13d3904eb3f4e7eb7c8c381469c858"
+      },
+      "code/thesis_expand_fetch.py": {
+        "path": "experiments/thesis_expand_fetch.py",
+        "sha256": "24e6997271b1d8256f77f66a0656de523535232743133cb6ec566b045e57807d"
+      },
+      "code/thesis_expand_screen.py": {
+        "path": "experiments/thesis_expand_screen.py",
+        "sha256": "ae0f8b51bc0c67c5305964c12f6e5284c246671e2370656b5600f311e51acaa5"
+      },
+      "code/thesis_lobe_model.py": {
+        "path": "experiments/thesis_lobe_model.py",
+        "sha256": "3d3a163d3510c19486ac3254caf4593a18ac8ff7de3efc09392f2c377477e81b"
+      },
+      "code/thesis_lobes.py": {
+        "path": "experiments/thesis_lobes.py",
+        "sha256": "5c127a7e890bcde7f71f02550824ad55898c4b9211a4cf2593ce9aadbdab1096"
+      },
+      "code/thesis_model.py": {
+        "path": "experiments/thesis_model.py",
+        "sha256": "af40c1a21ba366ebd92f95df0a949997ed76e9a3bd5d386970bced5f88e3a8b3"
+      },
+      "code/thesis_pipeline.py": {
+        "path": "experiments/thesis_pipeline.py",
+        "sha256": "ef312f0e211c2846edbed05e86d193c7cdadac22622330d6263254365b080893"
+      },
+      "code/thesis_release.py": {
+        "path": "experiments/thesis_release.py",
+        "sha256": "5171e16dc35c23350ee64d6de8b531ae7c760df268cbf40e0107f551b8a7464b"
+      },
+      "code/thesis_report_only.py": {
+        "path": "experiments/thesis_report_only.py",
+        "sha256": "e134f04c9912981038ea746e807a46318b823be5968b157b312086ea14a4978e"
+      },
+      "code/thesis_soft_eval.py": {
+        "path": "experiments/thesis_soft_eval.py",
+        "sha256": "90049b79426b44d42eff4255b4cf83994b401dff7c58824287d1c04da1c2e2ce"
+      },
+      "code/thesis_soft_transport.py": {
+        "path": "experiments/thesis_soft_transport.py",
+        "sha256": "033722882b1dbbbcb9abce456bc888ca3ef3d4fe5d172b3ee5983f9950ac9f2e"
+      },
+      "code/thesis_ssl.py": {
+        "path": "experiments/thesis_ssl.py",
+        "sha256": "011b62b9640910dbafbad8521bf0647ac16eb4d3e4be7204d7568473e0b76503"
+      },
+      "code/thesis_teacher_audit.py": {
+        "path": "experiments/thesis_teacher_audit.py",
+        "sha256": "2bab7a472c351ee2c553084b7c02e98af554c6bf01fed22c43990ba47cbebb01"
+      },
+      "code/thesis_test_pipeline.py": {
+        "path": "experiments/thesis_test_pipeline.py",
+        "sha256": "0e6e9f835cf8fc1ce99987fe4512b741371cbdbefaac2795b09534b934dbcf2d"
+      },
+      "code/thesis_transfer.py": {
+        "path": "experiments/thesis_transfer.py",
+        "sha256": "b462573ac685cc1c27c925cc4c0be6164ea8d1e6d6ccf816c6cf8a8bb529ea13"
+      },
+      "code/volume_benchmark.py": {
+        "path": "experiments/volume_benchmark.py",
+        "sha256": "492d7cc09a2e3503eb20a9c179e3ec0d8952aef48cee2ff28fc339e430882132"
+      }
+    }
+  }
+}

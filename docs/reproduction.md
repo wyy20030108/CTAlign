@@ -91,6 +91,8 @@ python joint_metrics.py phase9_joint/nodule_v2/external_matched
 |---|---|
 | 同卷文本交换、真实报告来源匹配 | `swap_clinical.py`、`swap_eval.py`、`swap_results.py` |
 | 同一共享候选框、跨患者结果与标注敏感性 | `matched6_pipeline.py`、`matched6.py`、`matched6_sensitivity.py` |
-| 肺不张纯 CT 低分辨率、滑窗、定位加精分割 | `atelectasis_b0.py`、`atelectasis_sliding.py`、`atelectasis_locate_refine.py` |
+| 肺不张图文监督低分辨率、滑窗、定位加精分割 | `atelectasis_b0.py`、`atelectasis_sliding.py`、`atelectasis_locate_refine.py` |
 | 肺不张图文监督与常规半监督、UOT | `thesis_test_pipeline.py`、`thesis_lobe_model.py`、`thesis_soft_transport.py`、`thesis_evaluate.py` |
 | 肺不张局部条件 UOT 和原型约束 | `joint_factorial.py`、`joint_target_audit.py`、`joint_confirm.py` |
+
+历史复现包对应的额外脚本、版本和恢复方法见[胸部 CT 前期实验源码](../studies/earlier_ct/)。新增 65 名肺结节留出的独立性、锁定和逐例算术核对入口见[终稿补证说明](../studies/nodule_followup/)。

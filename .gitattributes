@@ -3,3 +3,4 @@
 *.json text eol=lf
 experiments/*.py -text
 studies/nodule_followup/*.py -text
+studies/earlier_ct/sources/** -text

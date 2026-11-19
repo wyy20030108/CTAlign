@@ -16,6 +16,7 @@ CTAlign 保存《面向少标注医学影像的多模态半监督分割研究》
 - [`results/source-provenance.json`](results/source-provenance.json) 记录初始实验代码出处及 SHA-256。历史实验以 `nodule-v1` 标记，进一步验证的实验可在本仓库记录各自的配置、代码版本和汇总证据。
 - [`docs/reproduction.md`](docs/reproduction.md) 说明授权数据准备、冻结模型复跑和开发训练的步骤。
 - [`studies/nodule_followup/`](studies/nodule_followup/) 提供终稿补证的文本、尺寸、操作点分析及新增同源留出验证。
+- [`studies/earlier_ct/`](studies/earlier_ct/) 提供历史 CT 对照的源码索引、归档版本和校验入口。
 
 ## 核对发布结果
 
